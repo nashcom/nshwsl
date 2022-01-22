@@ -45,7 +45,7 @@
         wsl hostname -I
 
     Set addtional IP
-        wsl sudo /sbin/ip a add 192.168.222.222/24 dev eth0
+        wsl sudo ip a add 192.168.222.222/24 dev eth0
 
     List running VMs
         hcsdiag.exe list
